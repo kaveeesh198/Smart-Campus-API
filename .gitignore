@@ -1,0 +1,10 @@
+# Create the .gitignore file
+cat > .gitignore << 'EOF'
+target/
+.idea/
+*.iml
+*.iws
+*.ipr
+.DS_Store
+*.log
+EOF
